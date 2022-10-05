@@ -21,4 +21,17 @@ public class TestCalculator {
         Assert.assertEquals(actual, expect);
     }
 
+    // Jenis result testing yang passes
+    @Test
+    public void testAssertTrue(){
+//        boolean angka = 16>16;
+//        Assert.assertTrue(angka);
+        String actual = "Data berhasil disimpan";
+        String expect = "Data berhasil disimpan";
+        // Validasi
+        Assert.assertTrue(actual.equals(expect));
+    }
+
+
+
 }
