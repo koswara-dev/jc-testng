@@ -1,5 +1,6 @@
 package com.juaracoding.testng;
 
+import com.juaracoding.one.MessageUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

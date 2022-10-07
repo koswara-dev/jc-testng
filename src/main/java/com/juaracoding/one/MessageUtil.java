@@ -1,4 +1,4 @@
-package com.juaracoding.testng;
+package com.juaracoding.one;
 
 public class MessageUtil {
     private String message;
