@@ -1,4 +1,4 @@
-package com.juaracoding.testng;
+package com.juaracoding.featuretwo;
 
 import org.testng.annotations.*;
 
@@ -29,7 +29,7 @@ public class ProcedureExecution {
         System.out.println("Test One");
     }
 
-    @Test(priority = 2)
+    @Test(enabled = false, priority = 2)
     public void testTwo(){
         System.out.println("Test Two");
     }
